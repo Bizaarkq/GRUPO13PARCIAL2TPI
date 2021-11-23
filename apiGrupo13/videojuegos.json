@@ -1,0 +1,12 @@
+{
+    "videojuegos":[
+      {
+        "id": 1,
+        "titulo": "",
+        "autor": "",
+        "imagen": "",
+        "categoria": "",
+        "descripcion": ""
+      }
+    ]
+    }
