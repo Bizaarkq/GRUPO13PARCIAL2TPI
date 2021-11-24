@@ -5,20 +5,19 @@
       "nombre": "accion"
     },
     {
-      "id":2,
+      "id": 2,
       "nombre": "estrategia"
     },
     {
-      "id":3,
+      "id": 3,
       "nombre": "deporte"
     },
     {
-      "id":4,
+      "id": 4,
       "nombre": "carreras"
     }
-  ], 
-
-  "videojuegos":[
+  ],
+  "videojuegos": [
     {
       "id": 1,
       "titulo": "grand theft auto V",
@@ -170,14 +169,14 @@
       "imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/11/analisis-forza-horizon-5-crossover-definitivo-xbox-series-x-s-xbox-one-pc-2521089.jpg?itok=TZjBYGL8",
       "categoria": "carreras",
       "descripcion": "Forza Horizon 5 es un videojuego de carreras desarrollado por Playground Games y publicado por Xbox Game Studios. Es el quinto título de Forza Horizon y la duodécima entrega principal de la serie Forza. El juego está ambientado en una representación ficticia de México."
-    },
+    }
     {
       "id": 20,
       "titulo": "Moto GP 21",
       "autor": "Milestone S.r.l",
       "imagen": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_MotoGP21_MilestoneSrl_S1_2560x1440-ce5fd8d4a7faff1998443f7dda884fae",
       "categoria": "carreras",
-      "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único."
+      "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único." 
     }
   ]
 }
