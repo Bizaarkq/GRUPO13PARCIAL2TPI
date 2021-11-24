@@ -22,38 +22,39 @@
             <h3>Videojuegos</h3>
             <br>
             <small>formulario para agregar/modificar videojuego</small>
-			<div class="row">
-				<div class="input-group mb-3 col">
-					<input type="text" class="form-control" placeholder="Nombre" id="p_nombre">
+			<form>
+				<div class="row">
+					<div class="input-group mb-3 col">
+						<input type="text" class="form-control" placeholder="Titulo" id="titulo" name="titulo">
+					</div>
+					<div class="input-group mb-3 col">
+						<input type="text" class="form-control" placeholder="Autor" id="autor" name="autor">
+					</div>
 				</div>
-				<div class="input-group mb-3 col">
-					<span class="input-group-text">$</span>
-					<input type="text" class="form-control" placeholder="0000.00" id="p_precio">
+				<div class="row">
+					<div class="input-group mb-3 col">
+						<input type="text" class="form-control" placeholder="Imagen (https://sitioweb.com/images/ejemplo.jpg)" id="imagen" name="imagen"></input>
+					</div>
+					<div class="input-group mb-3 col">
+						<select class="form-select" id="categoria" name="categoria">
+							<option selected>Seleccionar categoria</option>
+							<option value="accion">Acción</option>
+							<option value="estrategia">Estrategia</option>
+							<option value="deporte">Deporte</option>
+							<option value="carreras">Carreras</option>
+						</select>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="input-group mb-3 col">
-					<textarea class="form-control" placeholder="Descripción" id="p_desc"></textarea>
+				<div class="row">
+					<div class="input-group mb-3 col">
+						<textarea class="form-control" placeholder="Descripcion" id="descripcion" name="descripcion"></textarea>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="input-group mb-3 col">
-					<input type="text" class="form-control" placeholder="https://sitioweb.com/images/ejemplo.jpg" id="p_image">
+				<div class="d-flex justify-content-end">
+					<button class="btn btn-primary" onclick="modVideojuego()">Modificar</button>
+					<button class="btn btn-primary" onclick="addVideojuego()">Guardar</button>
 				</div>
-				<div class="input-group mb-3 col">
-					<select class="form-select" id="p_cat">
-						<option selected>Seleccionar</option>
-						<option value="accion">Acción</option>
-						<option value="estrategia">Estrategia</option>
-						<option value="deporte">Deporte</option>
-						<option value="carreras">Carreras</option>
-					</select>
-				</div>
-			</div>
-			<div class="d-flex justify-content-end">
-                <button class="btn btn-primary" onclick="modVideojuego()">Modificar</button>
-				<button class="btn btn-primary" onclick="guardarVideojuego()">Guardar</button>
-			</div>
+			</form>
 		</div>
         <p><button class="btn btn-primary" onclick="obtenerVideojuegos();this.style.display='none';">Obtener Videojuegos</button></p>
 		<div id="listado" style="display:none;">
@@ -96,6 +97,6 @@
         </form>
     </div>
     -->
-    <script src="/appGrupo13/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
