@@ -1,12 +1,183 @@
 {
-    "videojuegos":[
-      {
-        "id": 1,
-        "titulo": "",
-        "autor": "",
-        "imagen": "",
-        "categoria": "",
-        "descripcion": ""
-      }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "accion"
+    },
+    {
+      "id":2,
+      "nombre": "estrategia"
+    },
+    {
+      "id":3,
+      "nombre": "deporte"
+    },
+    {
+      "id":4,
+      "nombre": "carreras"
     }
+  ], 
+
+  "videojuegos":[
+    {
+      "id": 1,
+      "titulo": "grand theft auto V",
+      "autor": "Rockstar Games",
+      "imagen": "https://static.wikia.nocookie.net/esgta/images/1/1b/Car%C3%A1tula_GTA_V.jpg",
+      "categoria": "accion",
+      "descripcion": "GTA V (Grand Theft Auto V) para PS4, PS3, Xbox One, Xbox 360 y PC es la quinta entrega numerada de la saga superventas de Rockstar Games. Se trata de una aventura de acción de mundo abierto con multitud de misiones en la que encarnamos a tres personajes distintos: Trevor, Michael y Franklin. Además, cuenta con GTA Online, el modo multijugador en lína de GTA 5."
+    },
+    {
+      "id": 2,
+      "titulo": "God of War IV",
+      "autor": "Santa Monica Studio",
+      "imagen": "https://static.wikia.nocookie.net/doblaje/images/6/67/God_of_war_ps4.jpg",
+      "categoria": "accion",
+      "descripcion": ""
+    },
+    {
+      "id": 3,
+      "titulo": "Battlefield 2042",
+      "autor": "Electronic Arts",
+      "imagen": "https://as01.epimg.net/meristation/imagenes/2021/10/05/avances/1633467713_271702_1633473723_noticia_normal.jpg",
+      "categoria": "accion",
+      "descripcion": "Battlefield 2042 marca el regreso a la emblemática guerra total de la franquicia. Adáptate y sobrevive con la ayuda de tu patrulla y un arsenal de vanguardia en campos de batalla en constante cambio. Con partidas de 128 jugadores*, prepárate para una escala sin precedentes en entornos inmensos. Vive experiencias descomunales, desde modos multijugador actualizados como Conquista y Avance hasta el nuevo Battlefield Hazard Zone."
+    },
+    {
+      "id": 4,
+      "titulo": "Fornite",
+      "autor": "Epic Games",
+      "imagen": "https://9to5fortnite.com/wp-content/uploads/2021/05/battle-pass-chapter-2-season-6-1920x1080-dc8eb73dc494.jpg",
+      "categoria": "accion",
+      "descripcion": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011. Los modos de juego publicados en 2017 incluyen Fortnite Battle Royale, un juego gratuito donde hasta cien jugadores luchan en una isla, en espacios cada vez más pequeños debido a la tormenta, para ser la última persona o equipo en pie, y Fortnite: Salvar el mundo, un juego cooperativo de hasta cuatro jugadores que consiste en luchar contra carcasas, criaturas parecidas a zombis, utilizando objetos, mejoras y fortificaciones."
+    },
+    {
+      "id": 5,
+      "titulo": "Shadow of the Colossus",
+      "autor": "Sony Computer Entertaiment",
+      "imagen": "https://image.api.playstation.com/vulcan/img/rnd/202010/2823/CYH8Z7RFpP45L5U2XpTI7JeW.png",
+      "categoria": "accion",
+      "descripcion": "Shadow of the Colossus es un videojuego de acción-aventura desarrollado y publicado por Sony Computer Entertainment (SCEI) para PlayStation 2. El juego fue publicado en Norteamérica y Japón en octubre de 2005, y posteriormente en Europa en febrero de 2006.1​ Fue creado por el Estudio Internacional de Producción 1 de SCEI, el mismo grupo de desarrollo responsable del éxito de culto"
+    },
+    {
+      "id": 6,
+      "titulo": "League of Legends",
+      "autor": "Riot Games",
+      "imagen": "https://i.blogs.es/128fe7/1366_2000/1366_521.jpeg",
+      "categoria": "estrategia",
+      "descripcion": "League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games para Microsoft Windows y OS X y para consolas digitales. En un principio los servidores estaban alojados en la empresa GOA y fue vendida a la empresa china Tencent Holdings Limited."
+    },
+    {
+      "id": 7,
+      "titulo": "Plantas vs Zombies 2",
+      "autor": "PopCap Games",
+      "imagen": "https://play-lh.googleusercontent.com/G5GFdm41pt3c_dcpngvOc0coIHIxqT-fwXcw9FLx3hA-v-DHejtbt4fCH-9TbogAnQ",
+      "categoria": "estrategia",
+      "descripcion": "Plants vs Zombies 2: It's About Time es un videojuego creado en 2013, desarrollado por PopCap Games y publicado por Electronic Arts. Es la secuela de Plants vs Zombies, y fue lanzado mundialmente en la App Store el 15 de agosto de 2013 y en Google Play, el 23 de octubre del 2013."
+    },
+    {
+      "id": 8,
+      "titulo": "Clash Royale",
+      "autor": "Supercell",
+      "imagen": "https://i1.wp.com/hipertextual.com/wp-content/uploads/2016/03/Clash-Royale.jpg?fit=1920%2C1080&ssl=1",
+      "categoria": "estrategia",
+      "descripcion": "Clash Royale, también conocido por su abreviatura CR, es un videojuego de estrategia en línea para dispositivos móviles, creado por la compañía finlandesa Supercell.​ Fue lanzado globalmente el 2 de marzo del 2016.2​ Es un videojuego freemium de estrategia en tiempo real basado en los personajes de Clash of Clans.3​ Combina elementos de los juegos de cartas coleccionables y defensa de torres."
+    },
+    {
+      "id": 9,
+      "titulo": "Warcraft III: Reign of Chaos",
+      "autor": "Blizzard Entertainment",
+      "imagen": "https://xboxplay.games/uploadStream/6054.jpg",
+      "categoria": "estrategia",
+      "descripcion": "Warcraft III: Reign of Chaos es un videojuego de estrategia en tiempo real creado por Blizzard Entertainment y es la tercera parte de la serie Warcraft. Además de continuar la historia del mundo épico medieval de Warcraft se distingue de sus predecesores por incorporar dos importantes cambios: el paso a los gráficos 3D y la aparición de dos nuevas razas."
+    },
+    {
+      "id": 10,
+      "titulo": "Age of Empires IV",
+      "autor": "Relic Entertainment",
+      "imagen": "https://www.muycomputer.com/wp-content/uploads/2021/10/Requisitos-de-Age-of-Empires-IV-portada-1000x600.jpg",
+      "categoria": "estrategia",
+      "descripcion": "Age of Empires IV (en español La edad de los imperios IV) es un videojuego de estrategia en tiempo real desarrollado por Relic Entertainment en asociación con World's Edge y publicado por Xbox Game Studios. Es la cuarta entrega de la serie Age of Empires. El juego fue lanzado el 28 de octubre de 2021 para Windows."
+    },
+    {
+      "id": 11,
+      "titulo": "FIFA 22",
+      "autor": "Electronic Arts",
+      "imagen": "https://i.blogs.es/ca1b1c/fifa-22-1/1366_2000.jpeg",
+      "categoria": "deporte",
+      "descripcion": "FIFA 22 es un videojuego de fútbol desarrollado por EA Vancouver y EA Romania, siendo publicado por EA Sports. Está disponible para PlayStation 4, PlayStation 5, Xbox Series X/S, Xbox One, Microsoft Windows, Google Stadia y Nintendo Switch. Es la vigésimo novena entrega en la serie FIFA y fue lanzado el 1 de octubre de manera global."
+    },
+    {
+      "id": 12,
+      "titulo": "Rocket League",
+      "autor": "Psyonix",
+      "imagen": "https://as01.epimg.net/meristation/imagenes/2020/09/23/noticias/1600849560_494635_1600849813_portada_normal.jpg",
+      "categoria": "deporte",
+      "descripcion": "Rocket League es un videojuego que combina el fútbol con los vehículos. Fue desarrollado por Psyonix y lanzado el 7 de julio de 2015. Fue lanzado Free to play en septiembre de 2020. Se encuentra disponible en español, y tiene modos de juego cooperativo de un jugador y en línea."
+    },
+    {
+      "id": 13,
+      "titulo": "NBA 2K21",
+      "autor": "Visual Concepts",
+      "imagen": "https://cdn2.unrealengine.com/2ksmkt-nba2k21-epic-set-up-assets-std-cg-blog-share-image-1920x1080-1920x1080-d46c9713e326.jpg",
+      "categoria": "deporte",
+      "descripcion": "NBA 2K21 es un videojuego de simulación de baloncesto desarrollado por Visual Concepts y publicado por 2K Sports , basado en la Asociación Nacional de Baloncesto ( NBA ). Es la 22a entrega de lafranquicia NBA 2K y la sucesora de NBA 2K20 , y la predecesora de NBA 2K22 . El juego fue lanzado el 4 de septiembre de 2020 para Microsoft Windows , Nintendo Switch , PlayStation 4 , Xbox One y Google Stadia , y el 12 de noviembre de 2020 para PlayStation 5 y Xbox Series X / S."
+    },
+    {
+      "id": 14,
+      "titulo": "PES 2021",
+      "autor": "Konami",
+      "imagen": "https://www.konami.com/kde_cms/eu_publish/uploads/pes2021_thumbnail-1024x576.jpg",
+      "categoria": "deporte",
+      "descripcion": "eFootball Pro Evolution Soccer 2021 Season Update (también conocido como Pro Evolution Soccer 2021 o simplemente PES 2021), es un videojuego de simulación de fútbol. El juego salió en el 25 aniversario de la serie de videojuegos Pro Evolution Soccer y fue lanzado en Microsoft Windows, PlayStation 4 y Xbox One el 15 de septiembre de 2020, y el 17 de septiembre de 2020 se lanzó en Japón."
+    },
+    {
+      "id": 15,
+      "titulo": "Tony Hawks Pro Skater",
+      "autor": "Neversoft",
+      "imagen": "https://static.wikia.nocookie.net/doblaje/images/8/8b/THPS1%262.jpg/revision/latest?cb=20200915045316&path-prefix=es",
+      "categoria": "deporte",
+      "descripcion": "Tony Hawk es una serie de videojuegos de deportes y aventura extrema avalado por el skater profesional Tony Hawk y publicado por Activision. La serie fue desarrollada principalmente para consolas domésticas por Neversoft (1999-2007), y para dispositivos móviles por Vicarious Visions (2001-2007). Desde 2008, la serie ha sido desarrollada por Robomodo."
+    },
+    {
+      "id": 16,
+      "titulo": "Gran Turismo Sport",
+      "autor": "Polyphony Digital",
+      "imagen": "https://image.api.playstation.com/vulcan/img/rnd/202011/1019/NE94SbwnpBEKaCkdmhLXYl04.jpg",
+      "categoria": "carreras",
+      "descripcion": "Gran Turismo Sport es un videojuego de carreras desarrollado por Polyphony Digital y publicado por Sony Interactive Entertainment para la consola de videojuegos PlayStation 4."
+    },
+    {
+      "id": 17,
+      "titulo": "The Crew 2",
+      "autor": "Ubisoft Ivory Tower",
+      "imagen": "https://allgamersin.com/wp-content/uploads/2018/06/The-Crew-2-beta.jpg",
+      "categoria": "carreras",
+      "descripcion": "Gran Turismo Sport es un videojuego de carreras desarrollado por Polyphony Digital y publicado por Sony Interactive Entertainment para la consola de videojuegos PlayStation 4."
+    },
+    {
+      "id": 18,
+      "titulo": "Need for Speed Heat",
+      "autor": "Ghost games",
+      "imagen": "https://s2.gaming-cdn.com/images/products/5362/orig/game-origin-need-for-speed-heat-cover.jpg",
+      "categoria": "carreras",
+      "descripcion": "Need for Speed Heat es un videojuego de carreras desarrollado por Ghost Games y publicado por Electronic Arts para Microsoft Windows, PlayStation 4 y Xbox One. Es la vigésimo cuarta entrega de la saga Need for Speed y conmemora el 25 aniversario de la serie. El juego fue revelado con un avance lanzado el 14 de agosto de 2019,1​ seguido de un avance del juego lanzado el 20 de agosto de 2019."
+    },
+    {
+      "id": 19,
+      "titulo": "Forza Horizon 5",
+      "autor": "Playground games",
+      "imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/11/analisis-forza-horizon-5-crossover-definitivo-xbox-series-x-s-xbox-one-pc-2521089.jpg?itok=TZjBYGL8",
+      "categoria": "carreras",
+      "descripcion": "Forza Horizon 5 es un videojuego de carreras desarrollado por Playground Games y publicado por Xbox Game Studios. Es el quinto título de Forza Horizon y la duodécima entrega principal de la serie Forza. El juego está ambientado en una representación ficticia de México."
+    },
+    {
+      "id": 20,
+      "titulo": "Moto GP 21",
+      "autor": "Milestone S.r.l",
+      "imagen": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_MotoGP21_MilestoneSrl_S1_2560x1440-ce5fd8d4a7faff1998443f7dda884fae",
+      "categoria": "carreras",
+      "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único."
+    }
+  ]
+}
