@@ -4,11 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parcial2Grupo13</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
+    <div class="container">
+        <h1>Parcial 2 - Grupo 13 - TPI115</h1>
+        <p>AA19012 - Aguilar Aguirre, Fátima Mercedes.
+        <br>BQ18002 - Bernabe Quintanilla, Edwin Isaac.
+        <br>CC19114 - Cruz Cuellar, Josue Ernesto.
+        <br>HG19010 - Henriquez Gomez, Andres Oswaldo.
+        <br>HZ18004 - Hernández Zamora, Cristian Alexis.
+        <br>TR19005 - Tobar Rodriguez, Mark Donovan.
+        </p>
+        <div class="container p-4 w-75">
+            <h3>Videojuegos</h3>
+            <br>
+            <small>formulario para agregar/modificar videojuego</small>
+			<div class="row">
+				<div class="input-group mb-3 col">
+					<input type="text" class="form-control" placeholder="Nombre" id="p_nombre">
+				</div>
+				<div class="input-group mb-3 col">
+					<span class="input-group-text">$</span>
+					<input type="text" class="form-control" placeholder="0000.00" id="p_precio">
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-group mb-3 col">
+					<textarea class="form-control" placeholder="Descripción" id="p_desc"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-group mb-3 col">
+					<input type="text" class="form-control" placeholder="https://sitioweb.com/images/ejemplo.jpg" id="p_image">
+				</div>
+				<div class="input-group mb-3 col">
+					<select class="form-select" id="p_cat">
+						<option selected>Seleccionar</option>
+						<option value="accion">Acción</option>
+						<option value="estrategia">Estrategia</option>
+						<option value="deporte">Deporte</option>
+						<option value="carreras">Carreras</option>
+					</select>
+				</div>
+			</div>
+			<div class="d-flex justify-content-end">
+                <button class="btn btn-primary" onclick="modVideojuego()">Modificar</button>
+				<button class="btn btn-primary" onclick="guardarVideojuego()">Guardar</button>
+			</div>
+		</div>
+        <p><button class="btn btn-primary" onclick="obtenerVideojuegos();this.style.display='none';">Obtener Videojuegos</button></p>
+		<div id="listado" style="display:none;">
+			<form name="filtrogames" id="filtrogames">
+				Seleccione Categorias 
+				<input type="checkbox" id="c1" value="c1" checked>Acción
+				<input type="checkbox" id="c2" value="c2" checked>Estrategia
+				<input type="checkbox" id="c3" value="c3" checked>Deporte
+				<input type="checkbox" id="c4" value="c4" checked>Carreras
+				<ol>
+					<li>Click en la imagen para Acercamiento</li>
+					<li>Click en título para ordenar Asc o Desc</li>
+				</ol>
+				<table class="table table-hover table-bordered border-secondary align-middle" id="tabla" border="1">
+					<thead class="table-dark text-center">
+						<tr>
+							<th>id</th>
+							<th>Portada</th>
+							<th>Nombre</th>
+							<th>Autor</th>
+                            <th>Categoría</th>
+							<th>Descripción</th>
+                            <th colspan="2">Acciones</th>
+						</tr>
+					</thead>
+					<tbody id="tbody"></tbody>
+				</table>
+			</form>
+		</div>
+    </div>
+
     <!--Eliminar Item de Videojuego-->
+    <!--
     <div id="eliminar" >
         <h3>Eliminar videojuego del registro</h3>
         <form>
@@ -17,6 +95,7 @@
             <input type="button" class="boton" value="Eliminar" onclick="deleteVideojuego()"/>
         </form>
     </div>
+    -->
     <script src="/appGrupo13/js/main.js"></script>
 </body>
 </html>
