@@ -176,7 +176,15 @@
       "autor": "Milestone S.r.l",
       "imagen": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_MotoGP21_MilestoneSrl_S1_2560x1440-ce5fd8d4a7faff1998443f7dda884fae",
       "categoria": "carreras",
-      "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único." 
+      "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único."
+    },
+    {
+      "titulo": "God Of War III",
+      "autor": "Santa Monica Studios",
+      "imagen": "https://elcomercio.pe/resizer/kzCRJs3WAZOSc-46IUcfB8JqdJ0=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/56KT7LLADVHOPBTFOHKLYVL6E4.jpg",
+      "categoria": "accion",
+      "descripcion": "God of War III es un videojuego de acción en tercera persona desarrollado por SCE Santa Monica Studio y publicado por Sony Computer Entertainment. Lanzado exclusivamente para la consola de videojuegos PlayStation 3 el 16 de marzo de 2010, el juego es la quinta entrega de la serie de God of War y la secuela de God of War y God of War II.",
+      "id": 21
     }
   ]
 }
