@@ -6,8 +6,8 @@ function crearBoton(id){
 }
 
 //Funcion para eliminar videojuegos de la API
-function deleteVideojuego(){
-	var idVideojuego = document.getElementById("deleteid").value;
+function deleteVideojuego(id){
+	var idVideojuego = id;
 	if(idVideojuego <=0){
 		alert("Id ingresado no es valido");
 	}else{
