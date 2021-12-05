@@ -1,7 +1,7 @@
 var fila="<tr><td class='id'></td><td class='imagen'></td><td class='titulo'></td><td class='autor'></td><td class='categoria'></td><td class='descripcion'></td><td class='action1'></td><td class='action2'></td></tr>";
 //variable para almacenar el id actual a modificar
-var idmod = 0;
-
+var idmod = null;
+var videojuegos = null;
 
 function crearBoton(id){
 	var boton="<button class='btn btn-danger' type='button' onclick='deleteVideojuego("+id+");'>Borrar</button>";
@@ -26,31 +26,45 @@ function deleteVideojuego(id){
 		deleteresult;
 		alert("Se elimino el videojuego con ID #"+idVideojuego);
 		//location.reload();
+		obtenerVideojuegos();
 	}
 }
 
 //Funcion para modificar videojuegos
 function actualizarVideojuego(){
-	obtenerVideojuegos();
+	//obtenerVideojuegos();
 	
 	var codigoJuego=idmod;
-	//const codigoJuego = document.getElementById("editid").value
-	const titulo = document.getElementById("titulo").value;
-	const autor = document.getElementById("autor").value;
-	const imagen = document.getElementById("imagen").value;
-	const categoria = document.getElementById("categoria").value;
-	const descripcion = document.getElementById("descripcion").value;
 	
-	var addresult;
-	var miVideojuego = {id:codigoJuego, titulo:titulo,autor:autor,imagen:imagen,categoria:categoria,descripcion:descripcion};
-	fetch('http://localhost:3000/videojuegos/'+codigoJuego, {
-	method: "put",
-	body: JSON.stringify(miVideojuego),
-	headers: {
-		'Accept': 'application/json',
-		'Content-type': 'application/json; charset=UTF-8',
-	}}).then(response=>response.json()).then(data=>addresult=data);
-	//alert("Se edito el videojuego con ID #"+codigoJuego);
+	if(codigoJuego != null){
+		//const codigoJuego = document.getElementById("editid").value
+		var titulo = document.getElementById("titulo").value;
+		var autor = document.getElementById("autor").value;
+		var imagen = document.getElementById("imagen").value;
+		var categoria = document.getElementById("categoria").value;
+		var descripcion = document.getElementById("descripcion").value;
+		
+		var addresult;
+		var miVideojuego = {id:codigoJuego, titulo:titulo,autor:autor,imagen:imagen,categoria:categoria,descripcion:descripcion};
+		fetch('http://localhost:3000/videojuegos/'+codigoJuego, {
+		method: "put",
+		body: JSON.stringify(miVideojuego),
+		headers: {
+			'Accept': 'application/json',
+			'Content-type': 'application/json; charset=UTF-8',
+		}}).then(response=>response.json()).then(data=>addresult=data);
+		alert("Se edito el videojuego con ID #"+codigoJuego);
+		
+		idmod=null;
+		document.getElementById("titulo").value = '';
+		document.getElementById("autor").value = '';
+		document.getElementById("imagen").value = '';
+		document.getElementById("categoria").value = '' ;
+		document.getElementById("descripcion").value = '';
+		obtenerVideojuegos();
+	}else{
+		alert("Seleccione un juego a modificar");
+	}
 }
 
 
@@ -58,25 +72,31 @@ function actualizarVideojuego(){
 
 //Funcion para agregar videojuegos a la API
 function addVideojuego(){
-	var videojuegoadd={titulo:document.getElementById("titulo").value,
-	autor:document.getElementById("autor").value,	
-	imagen:document.getElementById("imagen").value,
-	categoria:document.getElementById("categoria").value,
-	descripcion:document.getElementById("descripcion").value}
 	
-	var addresult;
-	fetch("http://127.0.0.1:3000/videojuegos",
-	{
-		method:"POST",
-		headers: {
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify(videojuegoadd),
-	})
-	.then(response=>response.json())
-	.then(data=>addresult=data);
-	addresult;
-	//location.reload();
+	var v_titulo = document.getElementById("titulo").value;
+	var v_autor = document.getElementById("autor").value;
+	var v_imagen = document.getElementById("imagen").value;
+	var v_cate = document.getElementById("categoria").value;
+	var v_desc = document.getElementById("descripcion").value;
+	
+	if(v_titulo != '' && v_autor != '' && v_imagen != '' && v_cate != '' && v_desc != ''){
+		var videojuegoadd={titulo: v_titulo, autor:v_autor,	imagen: v_imagen, categoria: v_cate, descripcion: v_desc}
+		var addresult;
+		fetch("http://127.0.0.1:3000/videojuegos",
+		{
+			method:"POST",
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(videojuegoadd),
+		})
+		.then(response=>response.json())
+		.then(data=>addresult=data);
+		//addresult;
+		obtenerVideojuegos();
+	}else{
+		alert("Llene todos los campos del videojuego");
+	}
 }
 
 
@@ -193,7 +213,7 @@ function obtenerVideojuegos() {
 			autorf.value = videojuego.autor;
 			imagenf.value = videojuego.imagen;
 			catef.value = videojuego.categoria;
-			descripcionf.innerHTML = videojuego.descripcion;
+			descripcionf.value = videojuego.descripcion;
 		});
 		
 		document.documentElement.scrollTop = 0;

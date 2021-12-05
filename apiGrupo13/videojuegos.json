@@ -19,14 +19,6 @@
   ],
   "videojuegos": [
     {
-      "id": 3,
-      "titulo": "Battlefield 2052",
-      "autor": "Electronic Arts Respawn",
-      "imagen": "https://as01.epimg.net/meristation/imagenes/2021/10/05/avances/1633467713_271702_1633473723_noticia_normal.jpg",
-      "categoria": "deporte",
-      "descripcion": "Battlefield 2042 marca el regreso a la emblemática guerra total de la franquicia. Adáptate y sobrevive con la ayuda de tu patrulla y un arsenal de vanguardia en campos de batalla en constante cambio. Con partidas de 128 jugadores*, prepárate para una escala sin precedentes en entornos inmensos. Vive experiencias descomunales, desde modos multijugador actualizados como Conquista y Avance hasta el nuevo Battlefield Hazard Zone."
-    },
-    {
       "id": 4,
       "titulo": "Fornite",
       "autor": "Epic Games",
@@ -63,7 +55,7 @@
       "titulo": "Clash Royale",
       "autor": "Supercell",
       "imagen": "https://i1.wp.com/hipertextual.com/wp-content/uploads/2016/03/Clash-Royale.jpg?fit=1920%2C1080&ssl=1",
-      "categoria": "estrategia",
+      "categoria": "accion",
       "descripcion": "Clash Royale, también conocido por su abreviatura CR, es un videojuego de estrategia en línea para dispositivos móviles, creado por la compañía finlandesa Supercell.​ Fue lanzado globalmente el 2 de marzo del 2016.2​ Es un videojuego freemium de estrategia en tiempo real basado en los personajes de Clash of Clans.3​ Combina elementos de los juegos de cartas coleccionables y defensa de torres."
     },
     {
@@ -71,7 +63,7 @@
       "titulo": "Warcraft III: Reign of Chaos",
       "autor": "Blizzard Entertainment",
       "imagen": "https://xboxplay.games/uploadStream/6054.jpg",
-      "categoria": "estrategia",
+      "categoria": "deporte",
       "descripcion": "Warcraft III: Reign of Chaos es un videojuego de estrategia en tiempo real creado por Blizzard Entertainment y es la tercera parte de la serie Warcraft. Además de continuar la historia del mundo épico medieval de Warcraft se distingue de sus predecesores por incorporar dos importantes cambios: el paso a los gráficos 3D y la aparición de dos nuevas razas."
     },
     {
@@ -79,7 +71,7 @@
       "titulo": "Age of Empires IV",
       "autor": "Relic Entertainment",
       "imagen": "https://www.muycomputer.com/wp-content/uploads/2021/10/Requisitos-de-Age-of-Empires-IV-portada-1000x600.jpg",
-      "categoria": "estrategia",
+      "categoria": "carreras",
       "descripcion": "Age of Empires IV (en español La edad de los imperios IV) es un videojuego de estrategia en tiempo real desarrollado por Relic Entertainment en asociación con World's Edge y publicado por Xbox Game Studios. Es la cuarta entrega de la serie Age of Empires. El juego fue lanzado el 28 de octubre de 2021 para Windows."
     },
     {
@@ -135,7 +127,7 @@
       "titulo": "The Crew 2",
       "autor": "Ubisoft Ivory Tower",
       "imagen": "https://allgamersin.com/wp-content/uploads/2018/06/The-Crew-2-beta.jpg",
-      "categoria": "carreras",
+      "categoria": "estrategia",
       "descripcion": "Gran Turismo Sport es un videojuego de carreras desarrollado por Polyphony Digital y publicado por Sony Interactive Entertainment para la consola de videojuegos PlayStation 4."
     },
     {
@@ -169,30 +161,6 @@
       "imagen": "https://blogging-techies.com/wp-content/uploads/2020/07/Halo-Combat-Evolved-Corregir-error-fatal-Halo-CE-DX-en.jpg",
       "categoria": "estrategia",
       "descripcion": "Halo es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo: Reach, y gestionada ahora por 343 Industries, propiedad de Microsoft Studios. La serie se centra en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant.\t"
-    },
-    {
-      "id": 22,
-      "titulo": "Ultima prueba prueba",
-      "autor": "Donito 2",
-      "imagen": "",
-      "categoria": "estrategia",
-      "descripcion": "Quero lolsito"
-    },
-    {
-      "id": 23,
-      "titulo": "Fornite",
-      "autor": "Epic Games",
-      "imagen": "https://9to5fortnite.com/wp-content/uploads/2021/05/battle-pass-chapter-2-season-6-1920x1080-dc8eb73dc494.jpg",
-      "categoria": "carreras",
-      "descripcion": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011. Los modos de juego publicados en 2017 incluyen Fortnite Battle Royale, un juego gratuito donde hasta cien jugadores luchan en una isla, en espacios cada vez más pequeños debido a la tormenta, para ser la última persona o equipo en pie, y Fortnite: Salvar el mundo, un juego cooperativo de hasta cuatro jugadores que consiste en luchar contra carcasas, criaturas parecidas a zombis, utilizando objetos, mejoras y fortificaciones."
-    },
-    {
-      "titulo": "",
-      "autor": "",
-      "imagen": "",
-      "categoria": "Seleccionar categoria",
-      "descripcion": "",
-      "id": 25
     }
   ]
 }
