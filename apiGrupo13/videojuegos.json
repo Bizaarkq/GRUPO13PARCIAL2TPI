@@ -19,27 +19,11 @@
   ],
   "videojuegos": [
     {
-      "id": 1,
-      "titulo": "grand theft auto V\t",
-      "autor": "Rockstar Games\t",
-      "imagen": "https://static.wikia.nocookie.net/esgta/images/1/1b/Car%C3%A1tula_GTA_V.jpg",
-      "categoria": "accion",
-      "descripcion": "GTA V (Grand Theft Auto V) para PS4, PS3, Xbox One, Xbox 360 y PC es la quinta entrega numerada de la saga superventas de Rockstar Games. Se trata de una aventura de acción de mundo abierto con multitud de misiones en la que encarnamos a tres personajes distintos: Trevor, Michael y Franklin. Además, cuenta con GTA Online, el modo multijugador en lína de GTA 5."
-    },
-    {
-      "id": 2,
-      "titulo": "God of War IV",
-      "autor": "Santa Monica Studio",
-      "imagen": "https://as.com/meristation/imagenes/2020/09/17/game_cover/479791341600340811.jpg",
-      "categoria": "accion",
-      "descripcion": ""
-    },
-    {
       "id": 3,
-      "titulo": "Battlefield 2042",
-      "autor": "Electronic Arts",
+      "titulo": "Battlefield 2052",
+      "autor": "Electronic Arts Respawn",
       "imagen": "https://as01.epimg.net/meristation/imagenes/2021/10/05/avances/1633467713_271702_1633473723_noticia_normal.jpg",
-      "categoria": "accion",
+      "categoria": "deporte",
       "descripcion": "Battlefield 2042 marca el regreso a la emblemática guerra total de la franquicia. Adáptate y sobrevive con la ayuda de tu patrulla y un arsenal de vanguardia en campos de batalla en constante cambio. Con partidas de 128 jugadores*, prepárate para una escala sin precedentes en entornos inmensos. Vive experiencias descomunales, desde modos multijugador actualizados como Conquista y Avance hasta el nuevo Battlefield Hazard Zone."
     },
     {
@@ -55,7 +39,7 @@
       "titulo": "Shadow of the Colossus",
       "autor": "Sony Computer Entertaiment",
       "imagen": "https://image.api.playstation.com/vulcan/img/rnd/202010/2823/CYH8Z7RFpP45L5U2XpTI7JeW.png",
-      "categoria": "accion",
+      "categoria": "deporte",
       "descripcion": "Shadow of the Colossus es un videojuego de acción-aventura desarrollado y publicado por Sony Computer Entertainment (SCEI) para PlayStation 2. El juego fue publicado en Norteamérica y Japón en octubre de 2005, y posteriormente en Europa en febrero de 2006.1​ Fue creado por el Estudio Internacional de Producción 1 de SCEI, el mismo grupo de desarrollo responsable del éxito de culto"
     },
     {
@@ -193,6 +177,22 @@
       "imagen": "",
       "categoria": "estrategia",
       "descripcion": "Quero lolsito"
+    },
+    {
+      "id": 23,
+      "titulo": "Fornite",
+      "autor": "Epic Games",
+      "imagen": "https://9to5fortnite.com/wp-content/uploads/2021/05/battle-pass-chapter-2-season-6-1920x1080-dc8eb73dc494.jpg",
+      "categoria": "carreras",
+      "descripcion": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011. Los modos de juego publicados en 2017 incluyen Fortnite Battle Royale, un juego gratuito donde hasta cien jugadores luchan en una isla, en espacios cada vez más pequeños debido a la tormenta, para ser la última persona o equipo en pie, y Fortnite: Salvar el mundo, un juego cooperativo de hasta cuatro jugadores que consiste en luchar contra carcasas, criaturas parecidas a zombis, utilizando objetos, mejoras y fortificaciones."
+    },
+    {
+      "titulo": "",
+      "autor": "",
+      "imagen": "",
+      "categoria": "Seleccionar categoria",
+      "descripcion": "",
+      "id": 25
     }
   ]
 }
