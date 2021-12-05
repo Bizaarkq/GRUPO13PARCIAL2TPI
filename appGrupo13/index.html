@@ -52,7 +52,7 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-end">
-					<button class="btn btn-primary" onclick="modVideojuego()">Modificar</button>
+					<input type="button" class="btn btn-primary" value="Editar" onclick="actualizarVideojuego()"/>					
 					<button class="btn btn-primary" onclick="addVideojuego()">Guardar</button>
 				</div>
 			</form>
@@ -89,7 +89,7 @@
     </div>
 
     <!--Eliminar Item de Videojuego-->
-    <!--
+<center>
     <div id="eliminar" >
         <h3>Eliminar videojuego del registro</h3>
         <form>
@@ -98,7 +98,18 @@
             <input type="button" class="boton" value="Eliminar" onclick="deleteVideojuego()"/>
         </form>
     </div>
-    -->
+</center>    
+<br>
+    <center>
+	<div id="editarjuego" >
+        <h3>Editar videojuego del registro</h3>
+        <form>
+            <label for="editid">Ingrese id:</label>
+            <input type="number" id="editid" placeholder="Id de Videojuego a editar"/>
+            <input type="button" class="boton" value="Editar" onclick="actualizarVideojuego()"/>
+        </form>
+    </div>
+</center>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -20,11 +20,11 @@
   "videojuegos": [
     {
       "id": 1,
-      "titulo": "grand theft auto V",
-      "autor": "Rockstar Games",
+      "titulo": "grand theft auto V\t",
+      "autor": "Rockstar Games\t",
       "imagen": "https://static.wikia.nocookie.net/esgta/images/1/1b/Car%C3%A1tula_GTA_V.jpg",
       "categoria": "accion",
-      "descripcion": "GTA V (Grand Theft Auto V) para PS4, PS3, Xbox One, Xbox 360 y PC es la quinta entrega numerada de la saga superventas de Rockstar Games. Se trata de una aventura de acción de mundo abierto con multitud de misiones en la que encarnamos a tres personajes distintos: Trevor, Michael y Franklin. Además, cuenta con GTA Online, el modo multijugador en lína de GTA 5."
+      "descripcion": "GTA V (Grand Theft Auto V) para PS4, PS3, Xbox One, Xbox 360 y PC es la quinta entrega numerada de la saga superventas de Rockstar Games. Se trata de una aventura de acción de mundo abierto con multitud de misiones en la que encarnamos a tres personajes distintos: Trevor, Michael y Franklin. Además, cuenta con GTA Online, el modo multijugador en lína de GTA 5."
     },
     {
       "id": 2,
@@ -179,12 +179,12 @@
       "descripcion": "MotoGP 21 es una nueva entrega de la saga de conducción y motociclismo a cargo de Milestone para PC, PlayStation 4, Xbox One, PlayStation 5, Xbox Series y Switch. Vive la temporada 2021 al máximo con las clases MotoGP, Moto2 y Moto3. Vive la experiencia de carreras en 2 ruedas más auténtica con más de 120 pilotos oficiales, más de 20 pistas y nuevas características mejoradas para un nivel de realismo único."
     },
     {
-      "titulo": "God Of War III",
-      "autor": "Santa Monica Studios",
-      "imagen": "https://elcomercio.pe/resizer/kzCRJs3WAZOSc-46IUcfB8JqdJ0=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/56KT7LLADVHOPBTFOHKLYVL6E4.jpg",
-      "categoria": "accion",
-      "descripcion": "God of War III es un videojuego de acción en tercera persona desarrollado por SCE Santa Monica Studio y publicado por Sony Computer Entertainment. Lanzado exclusivamente para la consola de videojuegos PlayStation 3 el 16 de marzo de 2010, el juego es la quinta entrega de la serie de God of War y la secuela de God of War y God of War II.",
-      "id": 21
+      "id": 21,
+      "titulo": "Halo",
+      "autor": "343 Industries, Microsoft Studio",
+      "imagen": "https://blogging-techies.com/wp-content/uploads/2020/07/Halo-Combat-Evolved-Corregir-error-fatal-Halo-CE-DX-en.jpg",
+      "categoria": "estrategia",
+      "descripcion": "Halo es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo: Reach, y gestionada ahora por 343 Industries, propiedad de Microsoft Studios. La serie se centra en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant.\t"
     }
   ]
 }
