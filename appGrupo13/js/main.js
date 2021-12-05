@@ -1,7 +1,5 @@
 var fila="<tr><td class='id'></td><td class='imagen'></td><td class='titulo'></td><td class='autor'></td><td class='categoria'></td><td class='descripcion'></td><td class='action'></td></tr>";
 
-
-
 function crearBoton(id){
 	var boton="<button class='btn btn-danger' onclick='deleteVideojuego("+id+");'>Borrar</button>";
 	return boton;
@@ -12,7 +10,6 @@ function crearBotonModificar(id){
 	//var boton="<button class='btn btn-primary' onclick='actualizarVideojuego("+id+");'>Modificar</button>";
 	return boton;
 }
-
 
 //Funcion para eliminar videojuegos de la API
 function deleteVideojuego(id){
@@ -30,9 +27,11 @@ function deleteVideojuego(id){
 }
 
 //Funcion para modificar videojuegos
-function actualizarVideojuego(){
+function actualizarVideojuego(id){
 	obtenerVideojuegos();
-const codigoJuego = document.getElementById("editid").value
+
+var codigoJuego=id;
+	//const codigoJuego = document.getElementById("editid").value
 const titulo = document.getElementById("titulo").value;
 const autor = document.getElementById("autor").value;
 const imagen = document.getElementById("imagen").value;
@@ -48,6 +47,7 @@ var addresult;
 	 'Accept': 'application/json',
 	 'Content-type': 'application/json; charset=UTF-8',
 	  }}).then(response=>response.json()).then(data=>addresult=data);
+	  alert("Se edito el videojuego con ID #"+codigoJuego);
 	  
 }
 

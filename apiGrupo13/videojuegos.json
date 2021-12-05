@@ -185,6 +185,14 @@
       "imagen": "https://blogging-techies.com/wp-content/uploads/2020/07/Halo-Combat-Evolved-Corregir-error-fatal-Halo-CE-DX-en.jpg",
       "categoria": "estrategia",
       "descripcion": "Halo es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo: Reach, y gestionada ahora por 343 Industries, propiedad de Microsoft Studios. La serie se centra en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant.\t"
+    },
+    {
+      "id": 22,
+      "titulo": "Ultima prueba prueba",
+      "autor": "Donito 2",
+      "imagen": "",
+      "categoria": "estrategia",
+      "descripcion": "Quero lolsito"
     }
   ]
 }
