@@ -4,12 +4,12 @@ var idmod = null;
 var videojuegos = null;
 
 function crearBoton(id){
-	var boton="<button class='btn btn-danger' type='button' onclick='deleteVideojuego("+id+");'>Borrar</button>";
+	var boton="<button class='btn btn-danger' type='button' onclick='deleteVideojuego("+id+");'><i class='far fa-trash-alt'></i></button>";
 	return boton;
 }
 
 function crearBotonModificar(id){
-	var boton="<button type='button' class='btn btn-primary' onclick='moverdatosaform("+id+")'>Editar</button>"
+	var boton="<button type='button' class='btn btn-primary' onclick='moverdatosaform("+id+")'><i class='fas fa-pen'></i></button>"
 	//var boton="<button class='btn btn-primary' onclick='actualizarVideojuego("+id+");'>Modificar</button>";
 	return boton;
 }
@@ -52,8 +52,9 @@ function actualizarVideojuego(){
 		headers: {
 			'Accept': 'application/json',
 			'Content-type': 'application/json; charset=UTF-8',
-		}}).then(response=>response.json()).then(data=>addresult=data);
+		}}).then(response=>response.json()).then(data=>addresult=data);	
 		alert("Se edito el videojuego con ID #"+codigoJuego);
+	
 		
 		idmod=null;
 		document.getElementById("titulo").value = '';

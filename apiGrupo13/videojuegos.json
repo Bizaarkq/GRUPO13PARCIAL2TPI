@@ -19,14 +19,6 @@
   ],
   "videojuegos": [
     {
-      "id": 4,
-      "titulo": "Fornite",
-      "autor": "Epic Games",
-      "imagen": "https://9to5fortnite.com/wp-content/uploads/2021/05/battle-pass-chapter-2-season-6-1920x1080-dc8eb73dc494.jpg",
-      "categoria": "accion",
-      "descripcion": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011. Los modos de juego publicados en 2017 incluyen Fortnite Battle Royale, un juego gratuito donde hasta cien jugadores luchan en una isla, en espacios cada vez más pequeños debido a la tormenta, para ser la última persona o equipo en pie, y Fortnite: Salvar el mundo, un juego cooperativo de hasta cuatro jugadores que consiste en luchar contra carcasas, criaturas parecidas a zombis, utilizando objetos, mejoras y fortificaciones."
-    },
-    {
       "id": 5,
       "titulo": "Shadow of the Colossus",
       "autor": "Sony Computer Entertaiment",
@@ -161,6 +153,22 @@
       "imagen": "https://blogging-techies.com/wp-content/uploads/2020/07/Halo-Combat-Evolved-Corregir-error-fatal-Halo-CE-DX-en.jpg",
       "categoria": "estrategia",
       "descripcion": "Halo es una franquicia de videojuegos de ciencia ficción creada y desarrollada por Bungie Studios hasta Halo: Reach, y gestionada ahora por 343 Industries, propiedad de Microsoft Studios. La serie se centra en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas conocidos como Covenant.\t"
+    },
+    {
+      "titulo": "Fornite",
+      "autor": "Epic Games",
+      "imagen": "https://9to5fortnite.com/wp-content/uploads/2021/05/battle-pass-chapter-2-season-6-1920x1080-dc8eb73dc494.jpg",
+      "categoria": "accion",
+      "descripcion": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011. Los modos de juego publicados en 2017 incluyen Fortnite Battle Royale, un juego gratuito donde hasta cien jugadores luchan en una isla, en espacios cada vez más pequeños debido a la tormenta, para ser la última persona o equipo en pie, y Fortnite: Salvar el mundo, un juego cooperativo de hasta cuatro jugadores que consiste en luchar contra carcasas, criaturas parecidas a zombis, utilizando objetos, mejoras y fortificaciones.",
+      "id": 22
+    },
+    {
+      "id": 23,
+      "titulo": "a",
+      "autor": "modificao uwu",
+      "imagen": "asdas",
+      "categoria": "accion",
+      "descripcion": "asdasdasd"
     }
   ]
 }
