@@ -52,12 +52,12 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-end">
-					<input type="button" class="btn btn-primary" value="Editar" onclick="actualizarVideojuego()"/>					
-					<button class="btn btn-primary" onclick="addVideojuego()">Guardar</button>
+					<button type="button" class="btn btn-primary" onclick="actualizarVideojuego()">Editar</button>					
+					<button type="button" class="btn btn-primary" onclick="addVideojuego()">Guardar</button>
 				</div>
 			</form>
 		</div>
-        <p><button class="btn btn-primary" onclick="obtenerVideojuegos();this.style.display='none';">Obtener Videojuegos</button></p>
+        <p><button class="btn btn-primary" type="button" onclick="obtenerVideojuegos();this.style.display='none';">Obtener Videojuegos</button></p>
 		<div id="listado" style="display:none;">
 			<form name="filtrogames" id="filtrogames">
 				Seleccione Categorias 
@@ -68,14 +68,14 @@
 				<ol>
 					<li>Click en la imagen para Acercamiento</li>
 				</br>
-					<li>Click en nombre para ordenar ascendentemente</li>
+					<li>Click en título para ordenar ascendentemente</li>
 				</ol>
 				<table class="table table-hover table-bordered border-secondary align-middle" id="tabla" border="1">
 					<thead class="table-dark text-center">
 						<tr>
 							<th id="id">id</th>
 							<th>Portada</th>
-							<th id="name">Nombre</th>
+							<th id="name">Título</th>
 							<th >Autor</th>
                             <th>Categoría</th>
 							<th>Descripción</th>
