@@ -52,8 +52,8 @@ function actualizarVideojuego(){
 		headers: {
 			'Accept': 'application/json',
 			'Content-type': 'application/json; charset=UTF-8',
-		}}).then(response=>response.json()).then(data=>addresult=data);
-		swal("Editar", "Se edito el videojuego con ID #"+codigoJuego, "success");
+		}}).then(response=>response.json()).then(data=>addresult=data);	
+		alert("Se edito el videojuego con ID #"+codigoJuego);
 	
 		
 		idmod=null;
