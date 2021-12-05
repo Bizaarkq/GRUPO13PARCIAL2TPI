@@ -74,11 +74,10 @@
 	<div class="abs-center">
 		<p><button class="btn text-white btnObtener" type="button" onclick="obtenerVideojuegos();this.style.display='none';">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Obtener Videojuegos &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button></p>
 	</div>
-		<div id="listado" style="display:none;">
-			<form name="filtrogames" id="filtrogames">
-			
-				<div class="purple">
-					<div class="container">
+		<div   id="listado" style="display:none;">
+		
+				<div class="container">
+					<form name="filtrogames" id="filtrogames">
 						<br>
 						<h5> Seleccione Categorias</h5>	 
 						<input type="checkbox" id="c1" value="c1" checked>  Acción<br>
@@ -86,13 +85,11 @@
 						<input type="checkbox" id="c3" value="c3" checked>  Deporte<br>
 						<input type="checkbox" id="c4" value="c4" checked>  Carreras<br>
 						<br>
-					</div>
-				</div>
-				<div class="container">
+					
 					<ol>
-						<li>Click en la imagen para Acercamiento</li>
+						<li class="text-primary">Click en la imagen para Acercamiento</li>
 					</br>
-						<li>Click en título para ordenar ascendentemente</li>
+						<li class="text-primary">Click en título para ordenar ascendentemente</li>
 					</ol>
 					<table class="table table-hover table-bordered border-secondary align-middle" id="tabla" border="1">
 						<thead class="table-dark text-center">
@@ -108,8 +105,8 @@
 						</thead>
 						<tbody id="tbody"></tbody>
 					</table>
-				</div>
 				</form>
+			</div>
 			</div>
 
     <!--Eliminar Item de Videojuego-->
